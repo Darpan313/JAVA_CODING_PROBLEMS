@@ -26,13 +26,13 @@ public class Main {
         boolean res = isBipartiteBFS(V, adj);
         System.out.println(res);
 
-        res = isBipartiteDFS(V, adj);
-        System.out.println(res);
+//        res = isBipartiteDFS(V, adj);
+//        System.out.println(res);
     }
 
-    private static boolean isBipartiteDFS(int V, List<List<Integer>> adj) {
-
-    }
+//    private static boolean isBipartiteDFS(int V, List<List<Integer>> adj) {
+//
+//    }
 
     private static boolean isBipartiteBFS(int V, List<List<Integer>> adj) {
         int[] color = new int[V];

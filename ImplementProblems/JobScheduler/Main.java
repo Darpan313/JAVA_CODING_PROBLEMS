@@ -54,6 +54,7 @@ public class Main {
         List<List<String>> res = new ArrayList<>();
 
         PriorityQueue<Integer> availableMachines = new PriorityQueue<>();
+//        PriorityQueue<Integer> bu = new PriorityQueue<>(Comparator.comparingInt(a));
         PriorityQueue<Machine> busyMachines = new PriorityQueue<>(Comparator.comparingInt(Machine::endTime)
                 .thenComparing(Machine::id));
 
