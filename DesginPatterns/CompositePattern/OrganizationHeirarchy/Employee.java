@@ -11,6 +11,10 @@ public class Employee implements OrgComponent {
         this.salary = salary;
     }
 
+    public String getName() {
+        return name;
+    }
+
     @Override
     public int getSalary() {
         return salary;

@@ -12,8 +12,8 @@ public class OrderPrinting {
     }
 
     public void printFirst() {
-        latch1.countDown();
         System.out.println("First");
+        latch1.countDown();
     }
 
     public void printSecond() throws InterruptedException {
